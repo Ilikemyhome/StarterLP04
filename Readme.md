@@ -145,5 +145,5 @@ Rule 6: Dates unavailable.
 | ST07	   |Cancelled	            |Payment succeeds|	Cancelled	       |InvalidStateError	 | Invalid  |
 | ST08     |Completed	            | Guest cancels  |	Completed	       |InvalidStateError	 | Invalid  |
 | ST09     |Checked In              |Payment succeeds|	Checked In         |InvalidStateError	 | Invalid  |
-| ST10     |Pending -> Confirmed -> Checked In -> Completed  |	Full reservation sequence |	Completed	| Reservation completed successfully |	Valid Sequence
+| ST10     |Pending -> Confirmed -> Checked In -> Completed  |	Full reservation sequence |	Completed	| Reservation completed successfully |	Valid Sequence |
 | ST11	   |Pending -> Confirmed → Cancelled	| Cancellation sequence|	Cancelled	Reservation|  cancelled successfully |	Valid Sequence|
